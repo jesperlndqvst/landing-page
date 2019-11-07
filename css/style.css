@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1, h2, p {
+h1, h2, p, ul {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 100;
 }
@@ -157,4 +157,30 @@ nav {
     font-style: italic;
     font-size: 1rem;
     margin-top: 0.5rem;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    padding: 2rem 1rem;
+    justify-content: space-between;
+    background-color: #EFEDED;
+    font-size: 1.1rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 50%;
+}
+
+.footer > p {
+    font-style: italic;
 }
