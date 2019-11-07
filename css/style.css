@@ -134,13 +134,28 @@ nav {
     border: none;
 }
 
+
 /* Section three */
 .section-three {
     text-align: center;
 }
+.section-three h2 {
+    margin-bottom: 1rem;
+}
 .section-three img {
     width: 71px;
 }
+.quote-one {
+    margin: 1rem 0 1.5rem;
+}
 .quote-box {
-    width: 20rem;
+    width: 15rem;
+    margin: 0 auto 3rem;
+    text-align: left;
+    font-size: 1.2rem;
+}
+.name {
+    font-style: italic;
+    font-size: 1rem;
+    margin-top: 0.5rem;
 }
