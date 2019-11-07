@@ -38,6 +38,11 @@ nav {
     background-size: cover;
     height: 38rem;
     width: 100vw;
+}
+.image-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.158);
     padding: 1rem;
 }
 .hero h1 {
@@ -161,7 +166,6 @@ nav {
 }
 
 /* Footer */
-
 .footer {
     display: flex;
     padding: 2rem 1rem;
@@ -169,19 +173,29 @@ nav {
     background-color: #EFEDED;
     font-size: 1.1rem;
 }
-
 .footer a {
     text-decoration: none;
     color: #000;
 }
-
 .footer ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
     width: 50%;
 }
-
 .footer > p {
     font-style: italic;
+}
+
+/* Media queries */
+@media only screen and (min-width: 768px) {
+    /* Hero */
+    .hero {
+        text-align: center;
+    }
+    .hero h1 {
+        margin-top: 18rem;
+        font-size: 5rem;
+        width: initial;
+    }
 }
