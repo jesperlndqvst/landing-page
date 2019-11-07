@@ -20,6 +20,9 @@ h3{
     font-weight: bold;
     font-size: 1.2rem;
 }
+ul {
+    list-style: none;
+}
 
 /* Hero */
 nav {
@@ -30,8 +33,11 @@ nav {
 .logo img {
     width: 8rem;
 }
-.menu img {
+.hamburger-icon {
     width: 2rem;
+}
+.menu-items {
+    display: none;
 }
 .hero {
     background: no-repeat center url(/img/hero.jpg);
@@ -180,7 +186,6 @@ nav {
 .footer ul {
     display: flex;
     justify-content: space-between;
-    list-style: none;
     width: 50%;
 }
 .footer > p {
@@ -198,5 +203,23 @@ nav {
         font-size: 5rem;
         width: initial;
         text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.438);
+    }
+    .hamburger-icon {
+        display: none;
+    }
+    .menu-items {
+        display: flex;
+        color: #ffffff;
+        width: 17rem;
+        justify-content: space-between;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+    }
+    .menu-items li {
+        padding: 0.5rem;
+    }
+    .buy-button {
+        border: 1px solid #ffffff;
+        border-radius: 4.5rem;
     }
 }
