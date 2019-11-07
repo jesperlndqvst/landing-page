@@ -13,6 +13,7 @@ h1, h2, p, ul {
 h2 {
     font-size: 2.3rem;
     padding-top: 2rem;
+    text-align: center;
 }
 h3{
     font-family: 'Roboto Condensed', sans-serif;
@@ -22,7 +23,6 @@ h3{
 
 /* Hero */
 nav {
-    padding: 0.6rem;
     display: flex;
     justify-content: space-between;
     height: 5rem;
@@ -36,16 +36,15 @@ nav {
 .hero {
     background: no-repeat center url(/img/hero.jpg);
     background-size: cover;
-    height: 40rem;
+    height: 38rem;
     width: 100vw;
     padding: 1rem;
 }
 .hero h1 {
-    padding: 0.6rem;
     color: #ffffff;
     font-size: 2.5rem;
     width: 8rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 /* Section one */
@@ -74,11 +73,8 @@ nav {
 
 /* Section two */
 .section-two {
-    padding: 0 1rem 0;
+    padding: 0 1rem 1rem;
     background-color: #EFEDED;
-}
-.section-two h2 {
-    text-align: center;
 }
 .section-two > div {
     display: flex;
@@ -137,6 +133,33 @@ nav {
     margin-bottom: 2rem;
     border: none;
 }
+
+/* Section three */
+.section-three {
+    text-align: center;
+}
+.section-three h2 {
+    margin-bottom: 1rem;
+}
+.section-three img {
+    width: 71px;
+}
+.quote-one {
+    margin: 1rem 0 1.5rem;
+}
+.quote-box {
+    width: 15rem;
+    margin: 0 auto 3rem;
+    text-align: left;
+    font-size: 1.2rem;
+}
+.name {
+    font-style: italic;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* Footer */
 
 .footer {
     display: flex;
