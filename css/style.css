@@ -42,7 +42,7 @@ nav {
 .image-overlay{
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.158);
+    background-color: rgba(0, 0, 0, 0.15);
     padding: 1rem;
 }
 .hero h1 {
@@ -197,5 +197,6 @@ nav {
         margin-top: 18rem;
         font-size: 5rem;
         width: initial;
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.438);
     }
 }
