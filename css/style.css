@@ -13,6 +13,7 @@ h1, h2, p {
 h2 {
     font-size: 2.3rem;
     padding-top: 2rem;
+    text-align: center;
 }
 h3{
     font-family: 'Roboto Condensed', sans-serif;
@@ -75,9 +76,6 @@ nav {
     padding: 0 1rem 1rem;
     background-color: #EFEDED;
 }
-.section-two h2 {
-    text-align: center;
-}
 .section-two > div {
     display: flex;
     flex-direction: column;
@@ -134,4 +132,15 @@ nav {
     align-self: center;
     margin-bottom: 2rem;
     border: none;
+}
+
+/* Section three */
+.section-three {
+    text-align: center;
+}
+.section-three img {
+    width: 71px;
+}
+.quote-box {
+    width: 20rem;
 }
