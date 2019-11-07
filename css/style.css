@@ -46,7 +46,13 @@ nav {
     top: 4rem;
     color: #000;
     background-color: #ffffff;
-    width: 100%;
+    width: 100vw;
+    padding: 1rem;
+}
+.show-menu li {
+    font-size: 1.2rem;
+    padding: 1rem 0.5rem 0.5rem;
+    text-transform: uppercase;
 }
 .hero {
     background: no-repeat center url(/img/hero.jpg);
