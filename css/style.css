@@ -59,21 +59,18 @@ nav {
 .section-one h3 {
     margin-bottom: 0.5rem;
 }
-.icon-one {
-    width: 4rem;
-}
-.icon-two, .icon-three {
+.icon-one, .icon-two, .icon-three {
     width: 5rem;
+    margin-right: 1rem;
 }
-.section-one div div {
-    width: 10rem;
-}
-.section-one > div {
+
+.items-container > div {
     margin: 4rem auto;
     text-align: left;
-    width: 18rem;
     display: flex;
-    justify-content: space-around;
+    width: 15rem;
+    justify-content: space-between;
+   
 }
 
 /* Section two */
@@ -81,7 +78,7 @@ nav {
     padding: 0 1rem 1rem;
     background-color: #EFEDED;
 }
-.section-two > div {
+.cta-container > div {
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
@@ -89,6 +86,7 @@ nav {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     margin: 2rem 0;
 }
+
 .cta-image {
     border-top-left-radius: 0.8rem;
     border-top-right-radius: 0.8rem;
@@ -199,4 +197,54 @@ nav {
         width: initial;
         text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.438);
     }
+
+    .items-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 2rem;
+        text-align: center;
+    }
+
+    .items-container > div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 2rem;
+    }
+
+    .icon-one, .icon-two, .icon-three {
+        margin-right: 0;
+    }
+
+
+    .cta-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .cta-container > div {
+        width: 25%;
+    }
+
+    .section-three {
+        padding: 0;
+    }
+
+    .quotes-container {
+        display: flex;
+    }
+
+    .quotes-container * {
+        padding: 0.5rem;
+    }
+
+    .footer ul {
+        width: 40%;
+    }
+    
+
+
+
+
 }
