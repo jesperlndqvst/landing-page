@@ -39,6 +39,15 @@ nav {
 .menu-items {
     display: none;
 }
+.show-menu {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 4rem;
+    color: #000;
+    background-color: #ffffff;
+    width: 100%;
+}
 .hero {
     background: no-repeat center url(/img/hero.jpg);
     background-size: cover;
