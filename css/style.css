@@ -270,13 +270,26 @@ nav {
     .section-three {
         padding: 0;
     }
+    .section-three img {
+        width: 100px;
+    }
+    .quote-one {
+        margin-left: 3rem;
+    }
+    .quote-two {
+        margin-right: 3rem;
+    }
     .quotes-container {
         display: flex;
+        margin: 2rem 0 3rem;
     }
     .quotes-container * {
         padding: 0.5rem;
     }
-
+    .quote-box {
+        width: 17rem;
+        margin: 0 auto;
+    }
     /* Footer */
     .footer ul {
         width: 30%;
