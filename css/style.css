@@ -23,6 +23,10 @@ h3{
 ul {
     list-style: none;
 }
+a {
+    color: inherit;
+    text-decoration: none;
+}
 
 /* Hero */
 nav {
@@ -47,12 +51,14 @@ nav {
     color: #000;
     background-color: #ffffff;
     width: 100vw;
-    padding: 1rem;
 }
 .show-menu li {
     font-size: 1.2rem;
     padding: 1rem 0.5rem 0.5rem;
     text-transform: uppercase;
+}
+.show-menu li:hover {
+    background-color: #EFEDED;
 }
 .hero {
     background: no-repeat center url(/img/hero.jpg);
@@ -149,13 +155,16 @@ nav {
 .cta-btn {
     background-color: #b9de24;
     width: 10rem;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
     padding: 0.6rem;
     border-radius: 4.5rem;
     align-self: center;
     margin-bottom: 2rem;
     border: none;
+}
+.cta-btn:hover {
+    background-color: #aacc22;
 }
 
 /* Section three */
@@ -204,6 +213,9 @@ nav {
 .footer ul li {
     margin: 0.2rem;
 }
+.footer ul li:hover {
+    color: rgb(92, 90, 90);
+}
 .footer > p {
     font-style: italic;
 }
@@ -237,6 +249,12 @@ nav {
     .buy-button {
         border: 1px solid #ffffff;
         border-radius: 4.5rem;
+    }
+    .buy-button:hover {
+        background-color: rgba(239, 237, 237, 0.534);
+    }
+    .menu-items li:hover {
+        color: #000;
     }
 
     /* Section one */
