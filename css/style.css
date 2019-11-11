@@ -35,7 +35,7 @@ nav {
     height: 5rem;
 } 
 .logo img {
-    height: 3.5rem;
+    width: 8rem;
 }
 .hamburger-icon {
     width: 2rem;
@@ -226,6 +226,11 @@ nav {
         width: 100%;
         text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.438);
     }
+
+    .logo img {
+        width: 10rem;
+    }
+
     .hamburger-icon {
         display: none;
     }
