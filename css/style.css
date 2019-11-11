@@ -260,7 +260,7 @@ nav {
     .items-container {
         display: flex;
         justify-content: space-around;
-        padding: 0 2rem;
+        padding: 0 12rem;
         text-align: center;
     }
     .items-container > div {
