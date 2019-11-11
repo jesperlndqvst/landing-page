@@ -201,6 +201,9 @@ nav {
     justify-content: space-between;
     width: 50%;
 }
+.footer ul li {
+    margin: 0.2rem;
+}
 .footer > p {
     font-style: italic;
 }
@@ -236,13 +239,13 @@ nav {
         border-radius: 4.5rem;
     }
 
+    /* Section one */
     .items-container {
         display: flex;
         justify-content: space-around;
         padding: 0 2rem;
         text-align: center;
     }
-
     .items-container > div {
         flex-direction: column;
         justify-content: center;
@@ -250,39 +253,34 @@ nav {
         text-align: center;
         padding: 0 2rem;
     }
-
     .icon-one, .icon-two, .icon-three {
         margin-right: 0;
     }
 
-
+    /* Section two */
     .cta-container {
         display: flex;
         justify-content: space-around;
     }
-
     .cta-container > div {
         width: 25%;
     }
 
+    /* Section three */
     .section-three {
         padding: 0;
     }
-
     .quotes-container {
         display: flex;
     }
-
     .quotes-container * {
         padding: 0.5rem;
     }
 
+    /* Footer */
     .footer ul {
-        width: 40%;
+        width: 30%;
+        justify-content: space-around;
     }
     
-
-
-
-
 }
