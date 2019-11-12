@@ -203,6 +203,7 @@ nav {
     display: flex;
     padding: 2rem 1rem;
     justify-content: space-between;
+    align-items: center;
     background-color: #EFEDED;
     font-size: 1.1rem;
 }
@@ -229,14 +230,16 @@ nav {
         margin-top: 7rem;
         font-size: 5rem;
         width: 100%;
-        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.438);
+        text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.322);
     }
-
     .logo img {
         width: 10rem;
     }
-
-    .hamburger-icon {
+    .menu {
+        height: 2rem;
+    }
+    .hamburger-icon, .bar1, .bar2, .bar3 {
+        position: absolute;
         display: none;
     }
     .menu-items {
@@ -315,8 +318,11 @@ nav {
     }
 
     /* Footer */
+    .footer {
+        padding: 2rem 2rem;
+    }
     .footer ul {
-        width: 30%;
+        width: 15%;
         justify-content: space-around;
     }
     .footer ul li {
