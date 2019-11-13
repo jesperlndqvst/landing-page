@@ -164,6 +164,7 @@ nav {
     align-self: center;
     margin-bottom: 2rem;
     border: none;
+    cursor: pointer;
 }
 .cta-btn:hover {
     background-color: #aacc22;
