@@ -320,11 +320,12 @@ nav {
         padding: 2rem 2rem;
     }
     .footer ul {
-        width: 15%;
+        width: 30%;
         justify-content: space-around;
     }
     .footer ul li {
-        margin: 0.2rem;
+        margin-left: 0.2rem;
+        width: 100%;
     }
 }
 
