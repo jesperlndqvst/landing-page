@@ -270,6 +270,7 @@ nav {
         justify-content: space-around;
         padding: 0 2rem;
         text-align: center;
+        align-items: baseline;
     }
     .items-container > div {
         flex-direction: column;
