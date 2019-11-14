@@ -1,6 +1,6 @@
 # A landing page for Tennisgloben
 
-<img src="https://media.giphy.com/media/8zT0D36Myf9C0/giphy.gif" width="100%">
+<img src="https://gph.is/1NnZrrQ" width="100%">
 
 
 
