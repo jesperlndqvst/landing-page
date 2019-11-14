@@ -1,8 +1,6 @@
-# A landing page for Tennisgloben
-
 <img src="https://media.giphy.com/media/3o7btXIelzs8nBnznG/giphy.gif" width="100%">
 
-
+# A landing page for Tennisgloben
 
 ## Installation instructions
 - Clone down the project to you computer:
