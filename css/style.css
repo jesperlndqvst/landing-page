@@ -93,13 +93,16 @@ nav {
     margin: 0 1rem 1rem 0;
 }
 
+.items-container {
+    width: 100%;
+    padding: 2rem;
+}
+
 .items-container > div {
     margin: 4rem auto;
     text-align: left;
     display: flex;
-    width: 15rem;
-    justify-content: space-between;
-   
+    width: 100%;
 }
 
 /* Section two */
