@@ -1,6 +1,7 @@
+# A landing page for Tennisgloben
 <img src="https://media.giphy.com/media/3o7btXIelzs8nBnznG/giphy.gif" width="100%">
 
-# A landing page for Tennisgloben
+A simple landing page for a ficitve tennis company designed in Figma and built in HTML, CSS and a little bit of Javascript. 
 
 ## Installation instructions
 - Clone down the project to you computer:
